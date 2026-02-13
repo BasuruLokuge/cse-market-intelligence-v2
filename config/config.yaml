@@ -1,0 +1,20 @@
+# CSE Market Intelligence Configuration
+
+sectors:
+  - "Banking, Finance and Insurance"
+  - "Manufacturing"
+  - "Diversified Holdings"
+  - "Hotels and Travels"
+  - "Power and Energy"
+  - "Telecommunications"
+  - "Land and Property"
+  - "Stores and Supplies"
+
+indices:
+  - "ASPI"
+  - "S&P SL20"
+
+data_quality:
+  max_price_change_pct: 50
+  min_stocks_required: 5
+  max_data_age_hours: 24
